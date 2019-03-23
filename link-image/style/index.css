@@ -1,0 +1,19 @@
+	<style>
+
+		h1 {
+			font-family: Times new roman;
+			text-align: center;
+			color: blue;
+			}
+
+		h1, h2 {
+			font-family: Times new roman;
+			text-align: left;
+			color: red;
+			text-decoration: underline ;
+			}	
+
+		img {
+			max-width: 30%;
+			}
+	</style>
