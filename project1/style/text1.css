@@ -1,0 +1,104 @@
+html,body{margin:0; padding:0;}
+* {box-sizing: border-box;}
+img {max-width: 100%;}
+
+body {
+	font-family: "Open Sans", arial, sans-serif;
+	font-weight: 500;
+	background-color: #FFFFFF;
+	}
+
+h1, h2 {
+	margin: 25px 0; 
+	font-size: 3em;
+	line-height: 1.5em;
+	font-family: Georgia;
+	text-transform: uppercase;
+	letter-spacing: 0.2em;
+	color: #8E0B00;
+	text-align: center;
+	}
+
+.carousel-item active {
+	width: 300px;
+}
+
+.wrap {
+	margin: auto;
+	max-width: 1000px;
+	}
+
+.class1 {
+	float: left;
+	width: 33.3333333%;
+	padding: 15px;
+	position: relative;
+	}
+
+.card {
+	border: 1px solid #ddd;
+	cursor: pointer;
+	}
+
+.card img {
+	vertical-align: middle;
+	transition: all 0.5s linear;
+	}
+
+.card {
+	padding: 4px;
+	transition: all 0.5% ease;
+	}
+
+.card:hover {
+	transform: translate(0, -5px);
+	box-shadow: 5px 15px 5px 5px rgba(0, 0, 0, 0.2);
+	}
+	
+.card1 img {
+	vertical-align: middle;
+	transition: all 0.5s linear;
+}
+
+
+#class2 {
+		position: fixed;
+		right: 30px;
+		bottom: 30px;
+		animation: text 4s linear infinite;
+		}
+		
+@keyframes text	{	
+0% {
+  	opacity: 0.2;
+    left: 30%;
+}
+20% {
+    opacity: 0.4;
+    left: 40%;
+}
+40% {
+    opacity: 0.6;
+    left: 55%;
+}
+50% {
+    opacity: 0.8;
+    left: 60%;
+}
+60% {
+    opacity: 1;
+    left: 65%;
+}
+80% {
+    opacity: 0.5;
+    left: 75%;
+}
+100% {
+    opacity: 0;
+    left: 85%;
+}
+}
+	
+
+
+	
